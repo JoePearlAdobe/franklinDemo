@@ -13,6 +13,17 @@ import {
   loadCSS,
 } from './lib-franklin.js';
 
+
+import {
+  decoratePolarisAssets
+} from './lib-polaris.js'
+
+export function decorateMain(main) {
+ ...
+  decoratePolarisAssets(main);
+}
+
+
 const LCP_BLOCKS = []; // add your LCP blocks to the list
 window.hlx.RUM_GENERATION = 'project-1'; // add your RUM generation information here
 
