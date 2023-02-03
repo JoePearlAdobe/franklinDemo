@@ -19,7 +19,7 @@ import {
 } from './lib-polaris.js'
 
 export function decorateMain(main) {
- ...
+
   decoratePolarisAssets(main);
 }
 
